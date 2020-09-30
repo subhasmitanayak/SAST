@@ -1,0 +1,404 @@
+src/main/java/bankster/client/ClientApplication.java:36:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/ClientApplication.java:36:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/ClientApplication.java:38:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:38:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:38:	FieldNamingConventions: The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/bankster/client/ClientApplication.java:38:	FieldNamingConventions: The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/bankster/client/ClientApplication.java:38:	VariableNamingConventions: Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/bankster/client/ClientApplication.java:38:	VariableNamingConventions: Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/bankster/client/ClientApplication.java:40:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:40:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/ClientApplication.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/ClientApplication.java:41:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:41:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:41:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:41:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:41:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/main/java/bankster/client/ClientApplication.java:41:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/main/java/bankster/client/ClientApplication.java:43:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:43:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/ClientApplication.java:44:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/ClientApplication.java:44:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userRepository field if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:44:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userRepository field if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:44:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:44:	CommentRequired: Field comments are required
+src/main/java/bankster/client/ClientApplication.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/ClientApplication.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/ClientApplication.java:46:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:46:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:53:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:53:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/ClientApplication.java:54:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sendDatabase method if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:54:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sendDatabase method if you want a default access modifier
+src/main/java/bankster/client/ClientApplication.java:61:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/ClientApplication.java:61:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/ClientApplication.java:61:	MethodArgumentCouldBeFinal: Parameter 'builder' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:61:	MethodArgumentCouldBeFinal: Parameter 'builder' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:71:	MethodArgumentCouldBeFinal: Parameter 'restTemplate' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:71:	MethodArgumentCouldBeFinal: Parameter 'restTemplate' is not assigned and could be declared final
+src/main/java/bankster/client/ClientApplication.java:71:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/bankster/client/ClientApplication.java:71:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/bankster/client/ClientApplication.java:73:	LocalVariableCouldBeFinal: Local variable 'urlGETList' could be declared final
+src/main/java/bankster/client/ClientApplication.java:73:	LocalVariableCouldBeFinal: Local variable 'urlGETList' could be declared final
+src/main/java/bankster/client/ClientApplication.java:74:	LocalVariableCouldBeFinal: Local variable 'json' could be declared final
+src/main/java/bankster/client/ClientApplication.java:74:	LocalVariableCouldBeFinal: Local variable 'json' could be declared final
+src/main/java/bankster/client/ClientApplication.java:77:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:77:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:80:	LocalVariableCouldBeFinal: Local variable 'mapper' could be declared final
+src/main/java/bankster/client/ClientApplication.java:80:	LocalVariableCouldBeFinal: Local variable 'mapper' could be declared final
+src/main/java/bankster/client/ClientApplication.java:81:	LocalVariableCouldBeFinal: Local variable 'map' could be declared final
+src/main/java/bankster/client/ClientApplication.java:81:	LocalVariableCouldBeFinal: Local variable 'map' could be declared final
+src/main/java/bankster/client/ClientApplication.java:81:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/bankster/client/ClientApplication.java:81:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/bankster/client/ClientApplication.java:84:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:84:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:86:	LocalVariableCouldBeFinal: Local variable 'lisTransactions' could be declared final
+src/main/java/bankster/client/ClientApplication.java:86:	LocalVariableCouldBeFinal: Local variable 'lisTransactions' could be declared final
+src/main/java/bankster/client/ClientApplication.java:88:	LocalVariableCouldBeFinal: Local variable 'transaction' could be declared final
+src/main/java/bankster/client/ClientApplication.java:88:	LocalVariableCouldBeFinal: Local variable 'transaction' could be declared final
+src/main/java/bankster/client/ClientApplication.java:89:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/main/java/bankster/client/ClientApplication.java:89:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/main/java/bankster/client/ClientApplication.java:89:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/ClientApplication.java:89:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/ClientApplication.java:91:	LocalVariableCouldBeFinal: Local variable 'transactionsDetails' could be declared final
+src/main/java/bankster/client/ClientApplication.java:91:	LocalVariableCouldBeFinal: Local variable 'transactionsDetails' could be declared final
+src/main/java/bankster/client/ClientApplication.java:91:	LongVariable: Avoid excessively long variable names like transactionsDetails
+src/main/java/bankster/client/ClientApplication.java:91:	LongVariable: Avoid excessively long variable names like transactionsDetails
+src/main/java/bankster/client/ClientApplication.java:93:	LocalVariableCouldBeFinal: Local variable 'transactionsValue' could be declared final
+src/main/java/bankster/client/ClientApplication.java:93:	LocalVariableCouldBeFinal: Local variable 'transactionsValue' could be declared final
+src/main/java/bankster/client/ClientApplication.java:94:	LocalVariableCouldBeFinal: Local variable 'transactionsAmount' could be declared final
+src/main/java/bankster/client/ClientApplication.java:94:	LocalVariableCouldBeFinal: Local variable 'transactionsAmount' could be declared final
+src/main/java/bankster/client/ClientApplication.java:94:	LongVariable: Avoid excessively long variable names like transactionsAmount
+src/main/java/bankster/client/ClientApplication.java:94:	LongVariable: Avoid excessively long variable names like transactionsAmount
+src/main/java/bankster/client/ClientApplication.java:95:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:95:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:96:	LocalVariableCouldBeFinal: Local variable 'save' could be declared final
+src/main/java/bankster/client/ClientApplication.java:96:	LocalVariableCouldBeFinal: Local variable 'save' could be declared final
+src/main/java/bankster/client/ClientApplication.java:97:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/bankster/client/ClientApplication.java:97:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/bankster/client/ClientApplication.java:98:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:98:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/bankster/client/ClientApplication.java:103:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/ClientApplication.java:103:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/ClientApplication.java:104:	IdenticalCatchBranches: 'catch' branch identical to 'JsonGenerationException' branch
+src/main/java/bankster/client/ClientApplication.java:104:	IdenticalCatchBranches: 'catch' branch identical to 'JsonGenerationException' branch
+src/main/java/bankster/client/ClientApplication.java:105:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/ClientApplication.java:105:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/ClientApplication.java:106:	IdenticalCatchBranches: 'catch' branch identical to 'JsonGenerationException' branch
+src/main/java/bankster/client/ClientApplication.java:106:	IdenticalCatchBranches: 'catch' branch identical to 'JsonGenerationException' branch
+src/main/java/bankster/client/ClientApplication.java:107:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/ClientApplication.java:107:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/bankster/client/config/WebMvcConfigurer.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/config/WebMvcConfigurer.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/config/WebMvcConfigurer.java:9:	CommentRequired: Class comments are required
+src/main/java/bankster/client/config/WebMvcConfigurer.java:9:	CommentRequired: Class comments are required
+src/main/java/bankster/client/config/WebMvcConfigurer.java:12:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/bankster/client/config/WebMvcConfigurer.java:12:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/bankster/client/config/WebMvcConfigurer.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebMvcConfigurer.java:13:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:15:	CommentRequired: Class comments are required
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:15:	CommentRequired: Class comments are required
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userDetailsService field if you want a default access modifier
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userDetailsService field if you want a default access modifier
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	CommentRequired: Field comments are required
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	CommentRequired: Field comments are required
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	LongVariable: Avoid excessively long variable names like userDetailsService
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:18:	LongVariable: Avoid excessively long variable names like userDetailsService
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:25:	MethodArgumentCouldBeFinal: Parameter 'http' is not assigned and could be declared final
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:25:	MethodArgumentCouldBeFinal: Parameter 'http' is not assigned and could be declared final
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:26:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:35:	MethodArgumentCouldBeFinal: Parameter 'auth' is not assigned and could be declared final
+src/main/java/bankster/client/config/WebSecurityConfigurer.java:35:	MethodArgumentCouldBeFinal: Parameter 'auth' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Category.java:64:	MethodArgumentCouldBeFinal: Parameter 'index' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Category.java:64:	MethodArgumentCouldBeFinal: Parameter 'index' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:16:	DataClass: The class 'Transaction' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)
+src/main/java/bankster/client/domain/Transaction.java:16:	DataClass: The class 'Transaction' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=5, WMC=7)
+src/main/java/bankster/client/domain/Transaction.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/domain/Transaction.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/domain/Transaction.java:21:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/Transaction.java:21:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/Transaction.java:21:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/domain/Transaction.java:21:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/domain/Transaction.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the category field if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the category field if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:25:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/domain/Transaction.java:25:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/domain/Transaction.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the amount field if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the amount field if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:28:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/domain/Transaction.java:28:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/domain/Transaction.java:34:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:34:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:42:	MethodArgumentCouldBeFinal: Parameter 'amount' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:42:	MethodArgumentCouldBeFinal: Parameter 'amount' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:50:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the Transaction constructor if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:50:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the Transaction constructor if you want a default access modifier
+src/main/java/bankster/client/domain/Transaction.java:52:	ConstructorCallsOverridableMethod: Overridable method 'setCategory' called during object construction
+src/main/java/bankster/client/domain/Transaction.java:52:	ConstructorCallsOverridableMethod: Overridable method 'setCategory' called during object construction
+src/main/java/bankster/client/domain/Transaction.java:55:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/Transaction.java:55:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/Transaction.java:55:	MethodArgumentCouldBeFinal: Parameter 'amount' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:55:	MethodArgumentCouldBeFinal: Parameter 'amount' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:55:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:55:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/bankster/client/domain/Transaction.java:57:	ConstructorCallsOverridableMethod: Overridable method 'setCategory' called during object construction
+src/main/java/bankster/client/domain/Transaction.java:57:	ConstructorCallsOverridableMethod: Overridable method 'setCategory' called during object construction
+src/main/java/bankster/client/domain/TransactionRepository.java:17:	MissingOverride: The method 'save(Transaction)' is missing an @Override annotation.
+src/main/java/bankster/client/domain/TransactionRepository.java:17:	MissingOverride: The method 'save(Transaction)' is missing an @Override annotation.
+src/main/java/bankster/client/domain/TransactionRepository.java:20:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findAllByOrderByIdAsc': the method is declared in an interface type
+src/main/java/bankster/client/domain/TransactionRepository.java:20:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findAllByOrderByIdAsc': the method is declared in an interface type
+src/main/java/bankster/client/domain/User.java:16:	DataClass: The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/bankster/client/domain/User.java:16:	DataClass: The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/bankster/client/domain/User.java:16:	ShortClassName: Avoid short class names like User
+src/main/java/bankster/client/domain/User.java:16:	ShortClassName: Avoid short class names like User
+src/main/java/bankster/client/domain/User.java:19:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:19:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/domain/User.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/bankster/client/domain/User.java:19:	UnusedPrivateField: Avoid unused private fields such as 'id'.
+src/main/java/bankster/client/domain/User.java:19:	UnusedPrivateField: Avoid unused private fields such as 'id'.
+src/main/java/bankster/client/domain/User.java:22:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:22:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:24:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:24:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/User.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/User.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/User.java:26:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/bankster/client/domain/User.java:26:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/bankster/client/domain/User.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/User.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/User.java:30:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:30:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:30:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:30:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:40:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:40:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:48:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/bankster/client/domain/User.java:48:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/bankster/client/domain/UserDetailsImpl.java:18:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/UserDetailsImpl.java:18:	CommentRequired: Field comments are required
+src/main/java/bankster/client/domain/UserDetailsImpl.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/UserDetailsImpl.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/UserDetailsImpl.java:20:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/bankster/client/domain/UserDetailsImpl.java:20:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/bankster/client/domain/UserDetailsImpl.java:21:	ConstructorCallsOverridableMethod: Overridable method 'setUser' called during object construction
+src/main/java/bankster/client/domain/UserDetailsImpl.java:21:	ConstructorCallsOverridableMethod: Overridable method 'setUser' called during object construction
+src/main/java/bankster/client/domain/UserDetailsImpl.java:64:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/bankster/client/domain/UserDetailsImpl.java:64:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/bankster/client/domain/UserRepository.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/domain/UserRepository.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/bankster/client/service/CalculatorService.java:21:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/service/CalculatorService.java:21:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/service/CalculatorService.java:23:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/service/CalculatorService.java:23:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/service/CalculatorService.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/service/CalculatorService.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/service/CalculatorService.java:24:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/main/java/bankster/client/service/CalculatorService.java:24:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/main/java/bankster/client/service/CalculatorService.java:24:	CommentRequired: Field comments are required
+src/main/java/bankster/client/service/CalculatorService.java:24:	CommentRequired: Field comments are required
+src/main/java/bankster/client/service/CalculatorService.java:24:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/main/java/bankster/client/service/CalculatorService.java:24:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/main/java/bankster/client/service/CalculatorService.java:32:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:32:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:33:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'listTransactions'
+src/main/java/bankster/client/service/CalculatorService.java:33:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'listTransactions'
+src/main/java/bankster/client/service/CalculatorService.java:43:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:43:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:44:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/bankster/client/service/CalculatorService.java:44:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/bankster/client/service/CalculatorService.java:45:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/bankster/client/service/CalculatorService.java:45:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/bankster/client/service/CalculatorService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/service/CalculatorService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/bankster/client/service/CalculatorService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/bankster/client/service/CalculatorService.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/bankster/client/service/CalculatorService.java:47:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:47:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/bankster/client/service/CalculatorService.java:49:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'result'
+src/main/java/bankster/client/service/CalculatorService.java:49:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'result'
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:20:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:20:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:23:	CommentRequired: Field comments are required
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:23:	CommentRequired: Field comments are required
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:26:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:26:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:27:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/bankster/client/service/UserDetailsServiceImpl.java:27:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/bankster/client/web/TransactionController.java:24:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/web/TransactionController.java:24:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/bankster/client/web/TransactionController.java:26:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/web/TransactionController.java:26:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/bankster/client/web/TransactionController.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/web/TransactionController.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/bankster/client/web/TransactionController.java:27:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculatorService field if you want a default access modifier
+src/main/java/bankster/client/web/TransactionController.java:27:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculatorService field if you want a default access modifier
+src/main/java/bankster/client/web/TransactionController.java:27:	CommentRequired: Field comments are required
+src/main/java/bankster/client/web/TransactionController.java:27:	CommentRequired: Field comments are required
+src/main/java/bankster/client/web/TransactionController.java:38:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/bankster/client/web/TransactionController.java:38:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/bankster/client/web/TransactionController.java:39:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/web/TransactionController.java:39:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/main/java/bankster/client/web/TransactionController.java:53:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/bankster/client/web/TransactionController.java:53:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/bankster/client/web/TransactionController.java:54:	LocalVariableCouldBeFinal: Local variable 'sumAmountByCategory' could be declared final
+src/main/java/bankster/client/web/TransactionController.java:54:	LocalVariableCouldBeFinal: Local variable 'sumAmountByCategory' could be declared final
+src/main/java/bankster/client/web/TransactionController.java:54:	LongVariable: Avoid excessively long variable names like sumAmountByCategory
+src/main/java/bankster/client/web/TransactionController.java:54:	LongVariable: Avoid excessively long variable names like sumAmountByCategory
+src/test/java/bankster/client/ClientApplicationTests.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/ClientApplicationTests.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/ClientApplicationTests.java:10:	CommentRequired: Class comments are required
+src/test/java/bankster/client/ClientApplicationTests.java:10:	CommentRequired: Class comments are required
+src/test/java/bankster/client/ClientApplicationTests.java:13:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/ClientApplicationTests.java:13:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/ClientApplicationTests.java:13:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/ClientApplicationTests.java:13:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/ClientApplicationTests.java:13:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/bankster/client/ClientApplicationTests.java:13:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/bankster/client/service/CalculatorServiceTest.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/service/CalculatorServiceTest.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/service/CalculatorServiceTest.java:22:	CommentRequired: Class comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:22:	CommentRequired: Class comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:24:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/bankster/client/service/CalculatorServiceTest.java:24:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculatorService field if you want a default access modifier
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculatorService field if you want a default access modifier
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	CommentRequired: Field comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:25:	CommentRequired: Field comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:27:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/bankster/client/service/CalculatorServiceTest.java:27:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the transactionRepository field if you want a default access modifier
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	CommentRequired: Field comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	CommentRequired: Field comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/test/java/bankster/client/service/CalculatorServiceTest.java:28:	LongVariable: Avoid excessively long variable names like transactionRepository
+src/test/java/bankster/client/service/CalculatorServiceTest.java:31:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:31:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/service/CalculatorServiceTest.java:36:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:36:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:42:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:42:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:42:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:42:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:50:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:50:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:52:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:57:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:57:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:59:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:59:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:64:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:64:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:70:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:70:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:70:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:70:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:78:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:78:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:80:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:85:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:85:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:87:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:87:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:92:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:92:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:98:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:98:	LocalVariableCouldBeFinal: Local variable 'listTransactions' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:98:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:98:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:100:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:100:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:102:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:104:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:104:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:106:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:106:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:111:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:111:	CommentSize: Comment is too large: Line too long
+src/test/java/bankster/client/service/CalculatorServiceTest.java:117:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:117:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	LocalVariableCouldBeFinal: Local variable 'expectation' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:119:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/java/bankster/client/service/CalculatorServiceTest.java:121:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:121:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/bankster/client/service/CalculatorServiceTest.java:123:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/service/CalculatorServiceTest.java:123:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/bankster/client/web/TransactionControllerTest.java:17:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/test/java/bankster/client/web/TransactionControllerTest.java:17:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/test/java/bankster/client/web/TransactionControllerTest.java:21:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/web/TransactionControllerTest.java:21:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/bankster/client/web/TransactionControllerTest.java:21:	CommentRequired: Class comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:21:	CommentRequired: Class comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/web/TransactionControllerTest.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/web/TransactionControllerTest.java:23:	CommentRequired: Field comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:23:	CommentRequired: Field comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/web/TransactionControllerTest.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/bankster/client/web/TransactionControllerTest.java:26:	CommentRequired: Field comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:26:	CommentRequired: Field comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:29:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:29:	CommentRequired: Public method and constructor comments are required
+src/test/java/bankster/client/web/TransactionControllerTest.java:30:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:30:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:39:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/web/TransactionControllerTest.java:39:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/web/TransactionControllerTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:50:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/web/TransactionControllerTest.java:50:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/bankster/client/web/TransactionControllerTest.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/bankster/client/web/TransactionControllerTest.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)

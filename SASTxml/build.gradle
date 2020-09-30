@@ -1,0 +1,45 @@
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+
+task checkstyle(type: Checkstyle) {
+  configFile file("${project.rootDir}/path/to/checkstyle/config/checkstyle.xml") // Checkstyle config location
+  source 'src/main/java'
+  include '**/*.java'
+  exclude '**/gen/**'
+  
+  classpath = files()
+}
+
+task findbugs (type: FindBugs, dependsOn: assembleDebug) {
+    source = fileTree('src/main/java')
+    classes = fileTree('build/intermediates/classes/debug/')
+    classpath = files(project.configurations.compile.asPath)
+ 
+    effort = 'max'
+ 
+    excludeFilter = file("path/to/findbugs/config/findbugs.xml") // Findbugs exclude config location
+ 
+    task.reports {
+        xml.configure {
+            destination "build/reports/findbugs/findbugs-report.xml"
+            enabled = false
+        }
+
+        html.configure {
+            destination "build/reports/findbugs/findbugs-report.html"
+            enabled = true
+        }
+    }
+}
+ 
+task pmd (type: Pmd, dependsOn: assembleDebug) {
+    ruleSetFiles = files('path/to/pmd/config/pmd-ruleset.xml') // Pmd config location
+    ruleSets = ["basic", "braces", "strings", "design", "unusedcode"]
+    source = fileTree('src/main/java')
+ 
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
