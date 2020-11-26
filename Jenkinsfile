@@ -35,7 +35,7 @@ pipeline {
       }
     }
 
-stage('Frontend Static Code Analysis') {
+stage('PMD Static Code Analysis') {
     
             steps {
 		     sh "echo 'Run Static Code Analysis'"
@@ -48,15 +48,52 @@ stage('Frontend Static Code Analysis') {
                 }
             }
         }
-	// Build
-    stage('Publish Report') {
+        // Publish PMD Report
+    stage('Publish PMD Report') {
       
       steps {
 	      sh "echo 'Publish Report....'"
 	   
-        publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '**/reports/pmd/', reportFiles: 'main.html', reportName: 'HTML Report', reportTitles: ''])
+        publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/Users/apdfinanceangul/.jenkins/workspace/demo-project_master/build/reports/pmd', reportFiles: 'main.html', reportName: 'HTML Report', reportTitles: ''])
+	      //publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports', reportFiles: 'main.html', reportName: 'HTML Report', reportTitles: ''])
       }
     }
+    
+    
+    stage('Findbugs Static Code Analysis') {
+    
+            steps {
+		     sh "echo 'Run Findbugs Static Code Analysis'"
+                script {
+			try {
+                        sh './gradlew clean pmdMain --no-daemon'
+                    } finally { //Make checkstyle results available
+                        findbugs canComputeNew: false, defaultEncoding: '', excludePattern: '', healthy: '', includePattern: '', pattern: '', unHealthy: ''
+                    }
+                    
+                }
+            }
+        }
+        // Publish Findbugs Report
+    stage('Publish Findbugs Report') {
+      
+      steps {
+	      sh "echo 'Publish  Find bugs Report....'"
+	   	publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/Users/apdfinanceangul/.jenkins/workspace/demo-project_master/build/reports/pmd', reportFiles: 'main.html', reportName: 'HTML Report', reportTitles: ''])
+      }
+    }
+    
+    /*//CHECKMARX SAST
+        stage('Checkmarx Static Code Analysis') {
+    
+            steps {
+		     sh "echo 'Checkmarx Static Code Analysis'"
+                script {
+                    step([$class: 'CxScanBuilder', comment: '', credentialsId: 'admin', excludeFolders: '', exclusionsSetting: 'global', failBuildOnNewResults: false, failBuildOnNewSeverity: 'HIGH', filterPattern: '', fullScanCycle: 10, generatePdfReport: true, incremental: true, password: '{AQAAABAAAAAQ51vdCkusIgc5pxYvGP+tBt1lt+KvOH7YvuBXM+AqZNs=}', projectName: 'PMD-demo-project', sastEnabled: true, serverUrl: '', sourceEncoding: 'Provide Checkmarx server credentials to see source encodings list', username: '', vulnerabilityThresholdResult: 'FAILURE', waitForResultsEnabled: true])
+                }
+            }
+        }*/
+	
   
 	  
   }
